@@ -1,0 +1,120 @@
+body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: hsl(225, 100%, 98%);
+    max-width: 330px;
+    height: 520px;
+    margin: 0 auto;
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+.image-top img {
+    width: 100%;
+    display: block;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.main {
+    padding: 30px 25px;
+    text-align: center;
+}
+
+.main-text h1 {
+    color: hsl(223, 47%, 23%);
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.main-text p {
+    color: hsl(224, 23%, 55%);
+    line-height: 20px;
+    letter-spacing: .3px;
+    margin: 0 20px;
+}
+
+.main-price {
+    background-color: hsla(225, 62%, 95%, 0.548);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 14px;
+    margin: 20px 0;
+}
+
+.main-price img {
+    width: 40px;
+}
+
+.main-price-1 {
+    margin-left: -60px;
+}
+
+.main-price-1 p {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    margin: 5px 0;
+}
+
+.main-price-1 span {
+    color: hsl(224, 23%, 55%);
+}
+
+.main-price a {
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+.main-price a:hover {
+    text-decoration: none;
+    color: hsla(245, 75%, 52%, 0.658);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button {
+    font-size: 12px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+    padding: 14px 80px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-1 {
+    box-shadow: 5px 5px 25px hsl(240, 36%, 73%);
+}
+
+.button-1:hover {
+    background-color: hsla(245, 75%, 52%, 0.658);
+}
+
+.button-2 {
+    background-color: hsla(228, 100%, 98%, 0);
+    color: hsl(224, 23%, 55%);
+    margin-top: 10px;
+}
+
+.button-2:hover {
+    color: hsl(223, 47%, 23%);
+}
